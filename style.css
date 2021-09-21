@@ -1,0 +1,37 @@
+h1 {color: darkred;
+  font-family: verdana;
+  font-size: 60px;
+  font-style: oblique;
+  }
+
+h2 {color: darkred;
+  font-family: verdana;
+  font-size: 50px;
+  font-style: oblique;
+  margin-left: 38px}
+
+article header p {color: indigo;
+  font-family: verdana;
+  font-size: 24px;
+  text-align: left;}
+
+article figure {width: 300px;
+  border: 3px solid black;
+  padding: 5px;}
+
+article figure img {width: 100%;
+margin-bottom: 12px;}
+
+article figure figcaption {font-style: oblique;}
+
+article p {background: lightblue;
+  font-family: verdana;
+  text-align: left;
+  margin-left: 38px;
+  width: 300px;}
+
+article p img {max-width: 60%;
+float: right;
+border: 5px solid blue;
+margin-left: 10px;
+margin-bottom 20px;}
