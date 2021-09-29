@@ -41,7 +41,7 @@ nav ul li a {
 
 nav ul li a:hover {
   display: block;
-  background-color: DarkViolet;
+  background-color: indigo;
 }
 
 article figure {width: 300px;
