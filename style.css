@@ -17,6 +17,7 @@ article header p {color: indigo;
 
 nav ul {
   background-color: Black;
+  display: inline-block;
   list-style: none;
   padding: 0px;
   width: 200px;
@@ -33,7 +34,9 @@ nav ul li:last-child {
 }
 
 nav ul li a {
+  display: block;
   color: white;
+  background-color: black;
   text-decoration: none;
 }
 
