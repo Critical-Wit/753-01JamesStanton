@@ -18,7 +18,7 @@ article header p {color: indigo;
 
 nav ul {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 30px;
   list-style: none;
   padding-left: 0px;
@@ -30,17 +30,16 @@ nav ul li {
 
 nav ul li a {
   color: MediumVioletRed;
-  background-color: black;
   text-decoration: none;
-  padding: 8px;
+  text-transform: uppercase;
+  padding: 12px;
   bottom-border: 5px solid: indigo;
   display: block;
 }
 
 nav ul li a:hover {
   display: block;
-  background-color: indigo;
-  text-transform: uppercase;
+  text-transform: italic;
 }
 
 article figure {width: 300px;
