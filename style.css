@@ -15,6 +15,32 @@ article header p {color: indigo;
   font-size: 24px;
   text-align: left;}
 
+nav ul {
+  background-color: PaleVioletRed;
+  list-style: none;
+  padding: 0;
+  width: 200px;
+  border: 1px solid MediumVioletRed;
+}
+
+nav ul li {
+  border-bottom: 1px solid MediumVioletRed;
+  padding: 5px;
+}
+
+nav ul li:last-child {
+  border-bottom: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
 article figure {width: 300px;
   border: 3px solid black;
   padding: 5px;}
