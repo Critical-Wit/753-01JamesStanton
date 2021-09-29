@@ -21,7 +21,7 @@ nav ul {
   padding: 0;
   width: 200px;
   border: 1px solid MediumVioletRed;
-  indent-left: 45px;
+  float: left;
 }
 
 nav ul li {
