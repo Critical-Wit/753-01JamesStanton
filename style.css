@@ -18,20 +18,20 @@ article header p {color: indigo;
 nav ul {
   display: inline-block;
   list-style: none;
-  padding: 0px;
-  border: 3px solid MediumVioletRed;
+  padding-left: 0px;
+  border: 1px solid MediumVioletRed;
 }
 
 nav ul li {
   }
 
 nav ul li a {
-  display: block;
-  padding: 8px;
-  bottom-border: 3px solid: MediumVioletRed;
   color: white;
   background-color: black;
   text-decoration: none;
+  padding: 8px;
+  bottom-border: 1px solid: MediumVioletRed;
+  display: block;
 }
 
 nav ul li a:hover {
