@@ -16,7 +16,7 @@ article header p {color: indigo;
   text-align: left;}
 
 nav ul {
-  background-color: PaleVioletRed;
+  background-color: Black;
   list-style: none;
   padding: 45px;
   width: 200px;
@@ -38,7 +38,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  text-decoration: underline;
+  background-color: violet;
 }
 
 article figure {width: 300px;
