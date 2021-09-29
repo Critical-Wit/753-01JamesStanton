@@ -18,7 +18,7 @@ article header p {color: indigo;
 nav ul {
   background-color: PaleVioletRed;
   list-style: none;
-  padding: 0;
+  padding: 45px;
   width: 200px;
   border: 1px solid MediumVioletRed;
 }
