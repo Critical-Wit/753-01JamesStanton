@@ -19,11 +19,10 @@ nav ul {
   display: inline-block;
   list-style: none;
   padding-left: 0px;
-  border: 1px solid indigo;
+  border: 5px solid indigo;
 }
 
 nav ul li {
-  bottom-border: 1px: indigo;
   }
 
 nav ul li a {
@@ -31,7 +30,7 @@ nav ul li a {
   background-color: black;
   text-decoration: none;
   padding: 8px;
-  bottom-border: 1px solid: indigo;
+  bottom-border: 5px solid: indigo;
   display: block;
 }
 
