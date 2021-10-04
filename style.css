@@ -5,6 +5,24 @@ h1 {color: darkred;
   text-align: center;
   }
 
+  .skip-link {
+    background: #319795;
+    color: #fff;
+    font-weight: 700;
+    left: 50%;
+    padding: 4px;
+    position: absolute;
+    transform: translateY(-100%);
+  }
+  
+  .skip-link:focus {
+    transform: translateY(0%);
+  }
+
+  .skip-link {
+    transition: transform 0.3s;
+  }
+
 h2 {color: darkred;
   font-family: verdana;
   font-size: 50px;
