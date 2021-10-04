@@ -12,7 +12,7 @@ h1 {color: darkred;
     left: 35%;
     padding: 4px;
     position: absolute;
-    transform: translateY(-100%);
+    transform: translateY(-250%);
   }
   
   .skip-link:focus {
