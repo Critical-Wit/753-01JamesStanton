@@ -1,39 +1,25 @@
-h1 {color: darkred;
+
+h1#site-title {
+    color: darkred;
+    font-family: verdana;
+    font-size: 60px;
+    font-style: oblique;
+    text-align: center;
+  }
+h1#article-title {
+  font-style: bold;
+}
+
+h2 {color: indigo;
   font-family: verdana;
-  font-size: 60px;
-  font-style: oblique;
-  text-align: center;
-  }
-
-  .skip-link {
-    background: black;
-    color: white;
-    font-weight: 700;
-    left: 35%;
-    padding: 4px;
-    position: absolute;
-    transform: translateY(-250%);
-  }
-  
-  .skip-link:focus {
-    transform: translateY(0%);
-  }
-
-  .skip-link {
-    transition: transform 0.3s;
-  }
-
-h2 {color: darkred;
-  font-family: verdana;
-  font-size: 50px;
+  font-size: 24px;
   font-style: oblique;
   margin-left: 38px}
 
-article header h3 {color: indigo;
+article header p {color: indigo;
   font-family: verdana;
   font-size: 24px;
-  text-align: left;
-  margin-left: 38px;}
+  text-align: left;}
 
 nav ul {
   display: flex;
@@ -61,23 +47,40 @@ nav ul li a:hover {
   font-style: italic;
 }
 
-article figure {width: 300px;
-  border: 3px solid black;
-  padding: 5px;}
+article figure {width: 80%;
+  border: 5px solid black;
+  padding: 5px;
+  }
 
 article figure img {width: 100%;
-margin-bottom: 12px;}
+margin-bottom: 2.5px;}
 
 article figure figcaption {font-style: oblique;}
 
 article p {background: lightblue;
   font-family: verdana;
   text-align: left;
-  margin-left: 38px;
-  width: 300px;}
+  width: 525px;
+  border: 10px solid blue;
+  padding: 10px;
+}
 
-article p img {max-width: 60%;
-float: right;
+article p img {max-width: 40%;
+float: left;
 border: 5px solid blue;
-margin-left: 10px;
-margin-bottom 20px;}
+margin-right: 5px;
+}
+.section-image.even {float: right;
+
+}
+.section-image.odd {float: left;
+
+}
+h3 {padding-top: 10px;}
+
+.HeadingCaption {
+  color: indigo;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;}
