@@ -26,7 +26,7 @@ article figure {
 }
 
 
-@media all and (min-width: 376px){
+@media all and (min-width: 600px){
 .main-container {
   display: flex;
   max-width: 960px;
