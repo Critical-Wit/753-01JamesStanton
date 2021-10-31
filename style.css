@@ -7,7 +7,6 @@ h1#site-title {
   text-align: center;
 }
 .main-content {
-  width: 80%;
   background-color: lightblue;
 }
 
@@ -26,7 +25,7 @@ article figure {
 }
 
 
-@media all and (min-width: 600px){
+@media all and (min-width: 600px);{
 .main-container {
   display: flex;
   max-width: 960px;
@@ -146,7 +145,7 @@ article p img {
   margin-bottom 7px;
 }
 
-@media all and (min-width: 600px){
+@media all and (min-width: 600px);{
 .section-image.even {
   float: right;
   margin-left: 7px;
