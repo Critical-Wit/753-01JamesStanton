@@ -154,6 +154,8 @@ article p {
   display: none;
   overflow: hidden;
   background-color: lightblue;
+  max-height: 0;
+  transition: max-height 1s ease-out;
 }
 li {
 padding: 5px;
