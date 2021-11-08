@@ -1,9 +1,8 @@
 h1#site-title {
   color: black;
-  background-color: red;
+  background-color: white;
   font-family: verdana;
   font-size: 60px;
-  font-style: oblique;
   text-align: center;
 }
 .main-content {
@@ -13,8 +12,8 @@ h1#site-title {
 article figure {
   width: 50%;
   margin: auto;
-  border: 5px solid black;
-  padding: 5px;
+  border: 0px solid black;
+  padding: 0px;
 }
 
 .site-menu {
@@ -56,7 +55,6 @@ article figure {
 h1#article-title {
   text-align: center;
   font-size: 36px;
-  font-style: oblique;
   font-family: verdana;
   color: black;
 }
@@ -65,7 +63,6 @@ h2 {
   color: black;
   font-family: verdana;
   font-size: 24px;
-  font-style: oblique;
   margin-left: 38px;
 }
 
@@ -110,50 +107,67 @@ height: auto;
 
 article figure {
   width: 90%;
-  border: 5px solid black;
+  border: 2px solid black;
   padding: 5px;
-  margin-top: 15px;
+  margin-top: 10px;
   object-position: center;
 }
 
 article figure img {
   width: 100%;
   height: auto;
-  margin-bottom: 2.5px;
-}
-
-article figure figcaption {
-  font-style: oblique;
+  margin-bottom: 0px;
 }
 
 article p {
   font-family: verdana;
   color: black;
   text-align: left;
-  padding: 5px;
-  margin-left: 5px;
-  padding-bottom: 15px;
+  padding: 0px;
+  margin-left: 0px;
+  padding-bottom: 0px;
+  display: flex;
 }
 
+.collapsible {
+  background-color:lightblue;
+  color: black;
+  cursor: pointer;
+  padding: 5px;
+  width: 100%;
+  border: 0px solid black;
+  text-align: center;
+  outline: none;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  }
+
+.active, .collapsible:hover {
+  background-color: lightskyblue;
+}
+
+.gamelist {
+  padding: 0 18px;
+  font-size: 18px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: none;
+  overflow: hidden;
+  background-color: lightblue;
+}
+li {
+padding: 5px;
+}
 
 article p img {
   width: 50%;
   height: 50%;
   overflow: none;
   border: 5px solid black;
-  margin-right: 5px;
+  margin-right: 15px;
   margin-bottom 7px;
+  display: none;
 }
-
-@media all and (min-width: 768px){
-.section-image.even {
-  float: right;
-  margin-left: 7px;
-}
-.section-image.odd {
-  float: left;
-  margin-right: 7px;
-}}
 
 h3 {
   font-size: 24px;
@@ -161,6 +175,23 @@ h3 {
   line-height: 0px;
   padding-left: 10px;
 }
+
+div#footer {
+  position: fixed;
+  display: block;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  overflow: auto;
+  padding: 10px;
+  margin-bottom: 15px;
+  opacity: 0.65;
+}
+#footer a {;
+color: white;}
 
 @media all and (min-width: 768px){
 .HeadingCaption {
