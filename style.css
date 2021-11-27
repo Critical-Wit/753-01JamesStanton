@@ -1,207 +1,173 @@
 h1#site-title {
   color: black;
-  background-color: white;
-  font-family: verdana;
-  font-size: 60px;
+  background-color: lightskyblue;
+  font-family: monospace;
+  font-size: 50px;
   text-align: center;
+  max-width: 100%;
+  width: 100%;
 }
+
 .main-content {
-  background-color: lightblue;
+  background-color: white;
 }
 
-article figure {
-  width: 50%;
-  margin: auto;
-  border: 0px solid black;
-  padding: 0px;
-}
-
-.site-menu {
-  display: flex;
-  background-color: lightskyblue;
-  padding-right: 5px;
-  border: 5px solid black;
-}
-
-
-@media all and (min-width: 768px){
-.main-container {
-  display: flex;
-  max-width: 960px;
-  margin: auto;
-}
-
-.site-menu {
-  display: flex;
-  width: 20%;
-  background-color: lightskyblue;
-  padding-right: 5px;
-  border: 5px solid black;
-}
-
-.site-menu,
-.main-content {
-  float: left;
+@media all and (min-width: 768px) {
+  .main-container {
+    display: block;
+    width: 100%;
+    max-width: 100%;
   }
 
-.main-content {
-  width: 80%;
-  background-color: lightblue;
-  border: 5px solid black;
-  border-left: 0px;
-}}
+  .site-menu {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    background-color: white;
+    justify-content: center;
+  }
 
+  .main-content {
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+  }
+}
+
+.site-menu {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+}
 
 h1#article-title {
   text-align: center;
-  font-size: 36px;
-  font-family: verdana;
+  font-size: 50px;
+  font-family: monospace;
   color: black;
-}
-
-h2 {
-  color: black;
-  font-family: verdana;
-  font-size: 24px;
-  margin-left: 38px;
-}
-
-article header p {
-  color: black;
-  font-family: verdana;
-  font-size: 24px;
-  text-align: left;
+  background-color: lightskyblue;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding-left: fill;
+  padding-right: fill;
+  justify-content: center;
+  object-position: center;
 }
 
 nav ul {
-  background-color;
+  display: flex;
   list-style: none;
-  width: 200px;
-  padding: 0px;
+  width: 100%;
+  max-width: 100%;
+  justify-content: space-between;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
-
 
 nav ul li {
-  padding: 5px;
-}
-
-nav ul li:last-child {
-  border-bottom: none;
+  display: flex;
 }
 
 nav ul li a {
   color: black;
+  font-family: monospace;
+  font-weight: 100;
   text-decoration: none;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-nav ul li a:hover {
-  font-style: italic;
-}
-
-img {max-width: 100%;
-height: auto;
-}
-
-
-article figure {
-  width: 90%;
-  border: 2px solid black;
-  padding: 5px;
-  margin-top: 10px;
-  object-position: center;
-}
-
-article figure img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 0px;
-}
-
-article p {
-  font-family: verdana;
-  color: black;
-  text-align: left;
-  padding: 0px;
-  margin-left: 0px;
-  padding-bottom: 0px;
+  font-size: 24px;
+  text-align: center;
+  font-stretch: expanded;
   display: flex;
 }
 
+nav ul li a:hover {
+  text-transform: uppercase;
+}
+
+article figure {
+  width: 90%;
+  height: 30%;
+  border: 0px solid black;
+  padding: 0px;
+  margin-top: 5px;
+  object-position: center;
+}
+
+.section-banner {
+  max-width: 100%;
+  height: 100px;
+  width: 960px;
+  object-fit: cover;
+}
+
 .collapsible {
-  background-color:lightblue;
+  background-color: lightskyblue;
   color: black;
   cursor: pointer;
-  padding: 5px;
+  padding: 3px;
+  padding-bottom: 5px;
   width: 100%;
-  border: 0px solid black;
+  max-width: 100%;
+  border: 5px solid white;
   text-align: center;
   outline: none;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: monospace;
   font-weight: bold;
   font-size: 18px;
-  }
+}
 
-.active, .collapsible:hover {
+.active,
+.collapsible:hover {
   background-color: lightskyblue;
 }
 
 .gamelist {
   padding: 0 18px;
   font-size: 18px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: monospace;
   display: none;
   overflow: hidden;
-  background-color: lightblue;
+  background-color: white;
+  border: 3px solid lightskyblue;
+  margin-left: 33px;
+  margin-right: 33px;
   max-height: 0;
-  transition: max-height 1s ease-out;
+  transition: max-height 3s ease-out;
 }
 li {
-padding: 5px;
-}
-
-article p img {
-  width: 50%;
-  height: 50%;
-  overflow: none;
-  border: 5px solid black;
-  margin-right: 15px;
-  margin-bottom 7px;
-  display: none;
-}
-
-h3 {
-  font-size: 24px;
-  padding-top: 10px;
-  line-height: 0px;
-  padding-left: 10px;
+  padding: 5px;
 }
 
 div#footer {
-  position: fixed;
+  font-family: monospace;
+  position: relative;
   display: block;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: black;
-  color: white;
+  background-color: lightskyblue;
+  color: black;
   text-align: center;
   overflow: auto;
   padding: 10px;
   margin-bottom: 15px;
   opacity: 0.65;
 }
-#footer a {;
-color: white;}
-
-@media all and (min-width: 768px){
-.HeadingCaption {
+#footer a {
   color: black;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: 24px;
+}
+
+h1 {
+  color: black;
+  font-family: monospace;
+  font-size: 45px;
   font-weight: bold;
+  font-stretch: expanded;
   text-align: center;
   object-position: center;
-}
+  margin-bottom: 0;
 }
